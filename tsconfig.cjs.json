@@ -5,7 +5,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": false,
-    "lib": ["es2016"]
+    "target": "es2016"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
