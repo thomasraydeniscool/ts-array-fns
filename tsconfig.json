@@ -10,7 +10,6 @@
     "noUnusedLocals": true, // Report errors on unused local variables
     "noImplicitAny": true, // TypeScript will issue an error whenever it would have inferred 'any'
     "noUnusedParameters": true, // Report errors on unused parameters in functions
-
     // Project specific
     "outDir": "dist",
     "rootDir": "src", // This folder should contain all source files found by 'include' globs
