@@ -62,3 +62,6 @@ export const stepItem = <T>(
   if (toItem) result[index] = toItem;
   return result;
 };
+
+/** Create a simple array with a specified length */
+export const fromLength = (length: number) => [...Array(length).keys()];
